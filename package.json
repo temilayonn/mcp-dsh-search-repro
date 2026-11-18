@@ -1,0 +1,15 @@
+{
+  "name": "mcp-dsh-search-repro",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal repro: stdio disconnect on large search tool responses (>64KB)",
+  "scripts": {
+    "test": "node repro/run.js"
+  },
+  "dependencies": {
+    "dsh-free-search": "^0.9.66"
+  },
+  "devDependencies": {
+    "json-rpc-chunker": "temilayonn/json-rpc-chunker"
+  }
+}
