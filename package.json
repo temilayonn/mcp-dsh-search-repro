@@ -10,6 +10,6 @@
     "dsh-free-search": "^0.9.66"
   },
   "devDependencies": {
-    "json-rpc-chunker": "temilayonn/json-rpc-chunker"
+    "json-rpc-chunker": "temilayonn/json-rpc-chunker#stable"
   }
 }
