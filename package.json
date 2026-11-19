@@ -7,9 +7,11 @@
     "test": "node repro/run.js"
   },
   "dependencies": {
-    "dsh-free-search": "^0.9.66"
-  },
-  "devDependencies": {
+    "dsh-free-search": "^0.9.66",
     "json-rpc-chunker": "temilayonn/json-rpc-chunker#stable"
+  },
+  "devDependencies": {},
+  "bin": {
+    "mcp-dsh-search-repro": "repro/run.js"
   }
 }

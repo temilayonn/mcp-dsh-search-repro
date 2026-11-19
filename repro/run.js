@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 /* Two-run repro for the stdio disconnect on large search responses.
    Run 1: builds a cached 65KB+ result set (typical web-search tool payload).
